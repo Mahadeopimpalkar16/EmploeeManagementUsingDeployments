@@ -1,0 +1,79 @@
+<style>
+table {
+  width: auto;
+  border-collapse:collapse;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #cde7e6;
+}
+button{
+  background-color: rgb(193, 226, 227);
+  width: 80px;
+  border-radius: 10%;
+  border-collapse: collapse;
+}
+
+input, select {
+  border-collapse:inherit;
+  background: transparent;
+  width: 100%;
+  font: larger;
+}
+</style>
+
+
+<button (click)="OnNewClick()" style="background-color: rgb(143, 205, 81);">Create New</button>
+<table border="1" >
+  <thead>
+    <tr>
+      <th>Full Name</th>
+      <th>Email</th>
+      <th>Department</th>
+      <th>Gender</th>
+      <th>Date of Joining</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Inline Create/Edit -->
+    <tr *ngIf="IsNewObject || editingEmployeeId !== null">
+      <td><input [(ngModel)]="currentEmployee.fullName" /></td>
+      <td><input [(ngModel)]="currentEmployee.email" /></td>
+      <td><input [(ngModel)]="currentEmployee.department" /></td>
+      <td><input [(ngModel)]="currentEmployee.gender" /></td>
+      <td><input type="date" [(ngModel)]="currentEmployee.dateOfJoining" /></td>
+      <td >
+        <button (click)="OnsaveClick()"style="background-color: blue">Save</button>
+        <button (click)="OncancelClick()">Cancel</button>
+      </td>
+    </tr>
+
+    <!-- Existing Employees List -->
+    <tr *ngFor="let emp of employees">
+      <td>{{ emp.fullName }}</td>
+      <td>{{ emp.email }}</td>
+      <td>{{ emp.department }}</td>
+      <td>{{ emp.gender }}</td>
+      <td>{{ emp.dateOfJoining | date }}</td>
+      <td>
+        <button (click)="OnEditClick(emp)">Edit</button>
+        <button (click)="OnDeleteClick(emp.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

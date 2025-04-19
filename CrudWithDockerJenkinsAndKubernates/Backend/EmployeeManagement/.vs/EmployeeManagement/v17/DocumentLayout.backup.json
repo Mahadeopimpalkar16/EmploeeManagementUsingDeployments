@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|d:\\mp_programs\\projects\\angularwithdotnetwebapi\\employeemgmnt\\crudwithdockerjenkinsandkubernates\\backend\\employeemanagement\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|d:\\mp_programs\\projects\\angularwithdotnetwebapi\\employeemgmnt\\crudwithdockerjenkinsandkubernates\\backend\\employeemanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|d:\\mp_programs\\projects\\angularwithdotnetwebapi\\employeemgmnt\\crudwithdockerjenkinsandkubernates\\backend\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mahadev\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|d:\\mp_programs\\projects\\angularwithdotnetwebapi\\employeemgmnt\\crudwithdockerjenkinsandkubernates\\backend\\employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|d:\\mp_programs\\projects\\angularwithdotnetwebapi\\employeemgmnt\\crudwithdockerjenkinsandkubernates\\backend\\employeemanagement\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|d:\\mp_programs\\projects\\angularwithdotnetwebapi\\employeemgmnt\\crudwithdockerjenkinsandkubernates\\backend\\employeemanagement\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|d:\\mp_programs\\projects\\angularwithdotnetwebapi\\employeemgmnt\\crudwithdockerjenkinsandkubernates\\backend\\employeemanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B10766-E38D-4CD9-AF79-B9F14C1FAB32}|EmployeeManagement.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T16:56:40.406Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:03:18.879Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T16:09:04.042Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:28:39.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:27:54.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:23:44.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\Mahadev\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\Mahadev\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAmwNgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-13T09:23:50.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Mp_programs\\Projects\\AngularWithDotnetWebApi\\EmployeeMgmnt\\CrudWithDockerJenkinsAndKubernates\\Backend\\EmployeeManagement\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-13T09:21:33.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

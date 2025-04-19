@@ -1,0 +1,26 @@
+# Use official .NET SDK for build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copy the project file and restore dependencies
+COPY EmployeeManagement/EmployeeManagement.csproj ./EmployeeManagement/
+WORKDIR /src/EmployeeManagement
+RUN dotnet restore
+
+# Copy the rest of the application files
+COPY EmployeeManagement/. ./
+RUN dotnet publish -c Release -o /app/publish
+
+# Use runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY --from=build /app/publish .
+
+# Install debugging tools like curl
+RUN apt-get update && apt-get install -y curl
+# Expose application ports
+EXPOSE 80
+EXPOSE 443
+
+# Entry point to run the application
+ENTRYPOINT ["dotnet", "EmployeeManagement.dll"]
