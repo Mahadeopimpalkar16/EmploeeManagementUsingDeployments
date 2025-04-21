@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employeemgmnt-backend-deployment
+  labels:
+    app: employeemgmnt-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: employeemgmnt-backend
+  template:
+    metadata:
+      labels:
+        app: employeemgmnt-backend
+    spec:
+      containers:  # Fixed indentation here!
+      - name: employeemgmnt-backend
+        image: mahadev1667/employeemgmnt-backend:v2
+        imagePullPolicy: Always  # Ensures Kubernetes always pulls the latest image
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: "Production"
+        readinessProbe:
+          httpGet:
+            path: /swagger/v1/swagger.json
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /swagger/v1/swagger.json
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "200m"
+          limits:
+            memory: "256Mi"
+            cpu: "300m"
+      imagePullSecrets:  # Fixed indentation here too!
+      - name: my-registry-secret

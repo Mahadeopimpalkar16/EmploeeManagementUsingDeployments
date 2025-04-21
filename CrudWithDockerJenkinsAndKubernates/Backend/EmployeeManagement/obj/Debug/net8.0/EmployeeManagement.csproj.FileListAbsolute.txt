@@ -171,3 +171,15 @@ D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenk
 D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.pdb
 D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.genruntimeconfig.cache
 D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\obj\Debug\net8.0\ref\EmployeeManagement.dll
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\out\web.config
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\web.config
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\appsettings.Development.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\appsettings.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\EmployeeManagement.deps.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\EmployeeManagement.runtimeconfig.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\EmployeeManagement.staticwebassets.endpoints.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\out\appsettings.Development.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\out\appsettings.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\out\EmployeeManagement.deps.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\out\EmployeeManagement.runtimeconfig.json
+D:\Mp_programs\Projects\AngularWithDotnetWebApi\EmployeeMgmnt\CrudWithDockerJenkinsAndKubernates\Backend\EmployeeManagement\bin\Debug\net8.0\out\out\EmployeeManagement.staticwebassets.endpoints.json

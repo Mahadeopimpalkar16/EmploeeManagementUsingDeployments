@@ -38,7 +38,8 @@
         "ASPNETCORE_HTTP_PORTS": "8080"
       },
       "publishAllPorts": false,
-      "useSSL": true
+      "useSSL": true,
+      "containerName": "Employeemgmnt-Backend-container"
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",

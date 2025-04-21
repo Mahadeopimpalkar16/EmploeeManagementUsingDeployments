@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employee-frontend
+spec:
+  replicas: 2  # Adjust based on load requirements
+  selector:
+    matchLabels:
+      app: employee-frontend
+  template:
+    metadata:
+      labels:
+        app: employee-frontend
+    spec:
+      containers:
+      - name: employeemgmnt-frontend
+        image: mahadev1667/employeemgmnt-frontend:2.1  # Replace with your container registry image if applicable
+        ports:
+        - containerPort: 80
+      imagePullSecrets:  # Fixed indentation here too!
+      - name: my-registry-secret
+
