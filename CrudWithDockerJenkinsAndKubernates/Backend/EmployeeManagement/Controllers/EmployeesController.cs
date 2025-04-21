@@ -54,7 +54,7 @@ namespace EmployeeManagement.Controllers
         public async Task<IActionResult> DeleteEmployee(int id)
         {
             var deletedEmp = await _employeeRepository.DeleteEmployee(id);
-            return deletedEmp ? NoContent() : NotFound();
+            return deletedEmp ? Ok() : NotFound();
         }
     }
 }
