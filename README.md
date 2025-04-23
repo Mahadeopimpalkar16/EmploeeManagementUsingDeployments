@@ -45,10 +45,10 @@ npm start
     
 #### Steps:
     kubectl apply -f backend-deployment.yaml  
-    kubectl apply -f backend-service.yaml  
+    kubectl apply -f backend-services.yaml  
 
     kubectl apply -f frontend-deployment.yaml  
-    kubectl apply -f frontend-service.yaml  
+    kubectl apply -f frontend-services.yaml  
 
     kubectl get pods  
     kubectl get services  
