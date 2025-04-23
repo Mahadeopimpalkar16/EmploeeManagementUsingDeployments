@@ -1,4 +1,4 @@
-### **EmploeeManagementUsingDeployments**
+# **EmploeeManagementUsingDeployments**
 
 ### Description
 The Employee Management System is a secure and scalable full-stack CRUD application designed to manage employee data efficiently. It integrates Angular for the frontend and ASP.NET Core Web API for the backend, with deployment automation using Docker and Kubernetes. This project emphasizes clean architecture, modularity, and automation for performance and maintainability.
@@ -16,7 +16,8 @@ The Employee Management System is a secure and scalable full-stack CRUD applicat
 - Frontend: Angular, HTML5, CSS 
 - Backend: ASP.NET Core Web API, Entity Framework 
 - Database: SQL Server 
-- DevOps: Docker, Kubernetes, Jenkins Tools: Git
+- DevOps: Docker, Kubernetes, Jenkins
+- Tools: Git
 
 ### Installation and Setup
 Follow these steps to set up and run the project locally:
@@ -28,25 +29,36 @@ npm install
 npm start  
 
 ### Backend Setup
-cd backend  
-dotnet run  
+    cd backend  
+    dotnet run  
 
 ### Docker Setup
 
-# Build Docker images for frontend and backend  
-- docker build -t frontend-app ./frontend  
-- docker build -t backend-app ./backend  
-# Start containers  
-- docker-compose up  
+    docker build -t frontend-app ./frontend  
+    docker build -t backend-app ./backend  
+    docker-compose up  
+
+### Kubernetes Deployment
+#### Pre-requisites:
+- Kubernetes cluster set up.
+- kubectl installed and configured to connect to your cluster.
+    
+#### Steps:
+    kubectl apply -f backend-deployment.yaml  
+    kubectl apply -f backend-service.yaml  
+
+    kubectl apply -f frontend-deployment.yaml  
+    kubectl apply -f frontend-service.yaml  
+
+    kubectl get pods  
+    kubectl get services  
+
 
 ### API Documentation
 
 - GET /api/employees - Fetch all employee records.
-
 - POST /api/employees - Create a new employee record.
-
 - PUT /api/employees/{id} - Update an existing employee record.
-
 - DELETE /api/employees/{id} - Delete an employee record.
 
 
