@@ -70,6 +70,11 @@ This project is designed to strengthen my skills in:
 - Containerization with Docker and Kubernetes.
 - Automation of deployment pipelines using Jenkins.
 
+### Check Backend at
+    http://localhost:30001/index.html
+
+### Check Frontend at 
+    http://localhost:30080/employees
 
 
 
