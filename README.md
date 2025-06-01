@@ -23,10 +23,10 @@ The Employee Management System is a secure and scalable full-stack CRUD applicat
 Follow these steps to set up and run the project locally:
 
 ### Frontend Setup 
-git clone https://github.com/Mahadeopimpalkar16/EmploeeManagementUsingDeployments.git
-cd frontend 
-npm install 
-npm start  
+    git clone https://github.com/Mahadeopimpalkar16/EmploeeManagementUsingDeployments.git
+    cd frontend 
+    npm install 
+    npm start  
 
 ### Backend Setup
     cd backend  
