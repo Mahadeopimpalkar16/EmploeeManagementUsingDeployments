@@ -1,9 +1,11 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagement.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class EmployeesController : ControllerBase
@@ -39,8 +41,18 @@ namespace EmployeeManagement.Controllers
         [HttpPost("CreateEmployee")]
         public async Task<IActionResult> CreateEmployee(Employees emp)
         {
+            if (emp == null)
+            {
+                return BadRequest("Invalid employee data");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var newEmp = await _employeeRepository.CreateEmployee(emp);
-            return CreatedAtAction(nameof(GetById), new {id = newEmp.Id}, newEmp);
+            return CreatedAtAction(nameof(GetById), new { id = newEmp.Id }, newEmp);
         }
 
         [HttpPut("UpdateEmployee")]
