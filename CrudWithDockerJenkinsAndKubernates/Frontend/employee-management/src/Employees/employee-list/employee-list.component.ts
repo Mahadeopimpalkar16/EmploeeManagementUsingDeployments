@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [CommonModule, FormsModule ],
   templateUrl: './employee-list.component.html',
-  styleUrls: ['./employee-list.component.scss'] // ✅ Corrected: style**Urls**, not styleUrl
+  styleUrls: ['./employee-list.component.scss']
 })
 export class EmployeeListComponent implements OnInit {
 
